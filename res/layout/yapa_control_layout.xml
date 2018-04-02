@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yapa.widget.SpaceControlLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yapa="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/space_control"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    yapa:itemSize="30dp"
+    yapa:groupSize="0.65"
+    yapa:position="leftcenter" >
+
+    <ImageView
+        android:id="@+id/space_center"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/space_center" />
+
+    <include layout="@layout/yapa_control_system" />
+
+</com.yapa.widget.SpaceControlLayout>

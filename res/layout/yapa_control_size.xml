@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yapa.widget.SpaceSizeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yapa="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/space_line_group"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    yapa:lineDirection="topvertical" >
+
+    <ImageView
+	    android:id="@+id/yapa_increase_width"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/space_increase_width" />
+
+    <ImageView
+	    android:id="@+id/yapa_reduce_width"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/space_reduce_width" />
+
+    <ImageView
+	    android:id="@+id/yapa_increase_height"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/space_increase_height" />
+
+    <ImageView
+	    android:id="@+id/yapa_reduce_height"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/space_reduce_height" />
+
+    <ImageView
+	    android:id="@+id/yapa_increase_deep"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/space_increase_deep" />
+
+    <ImageView
+	    android:id="@+id/yapa_reduce_deep"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/space_reduce_deep" />
+
+    <ImageView
+	    android:id="@+id/space_resetsize"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/space_resetsize" />
+
+    <ImageView
+	    android:id="@+id/yapa_group"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/space_group" />
+
+</com.yapa.widget.SpaceSizeLayout>

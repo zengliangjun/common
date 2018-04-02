@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yapa.widget.SpaceScreenLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yapa="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/space_line_group"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    yapa:lineDirection="topvertical" >
+
+    <ImageView
+        android:id="@+id/yapa_screennumber_control"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/space_screenone" />
+
+    <ImageView
+	    android:id="@+id/yapa_visible_control"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/space_windowshow" />
+
+    <ImageView
+	    android:id="@+id/yapa_window_control"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/space_windowsingle" />
+
+    <ImageView
+	    android:id="@+id/yapa_screenshape_control"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/space_screenplan" />
+
+
+    <ImageView
+	    android:id="@+id/yapa_rotation_control"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/space_windowrotation" />
+
+    <ImageView
+	    android:id="@+id/yapa_background_control"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/space_transparent" />
+
+    <ImageView
+	    android:id="@+id/yapa_group"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/space_group" />
+
+</com.yapa.widget.SpaceScreenLayout>

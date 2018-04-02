@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="yapachoice">
+
+        <attr name="itemSize" format="dimension" />
+        <attr name="groupSize" format="float" />
+        <attr name="position" format="integer">
+            <enum name="lefttop" value="0" />
+            <enum name="leftcenter" value="1" />
+            <enum name="leftbottom" value="2" />
+            <enum name="centertop" value="3" />
+            <enum name="center" value="4" />
+            <enum name="centerbottom" value="5" />
+            <enum name="righttop" value="6" />
+            <enum name="right" value="7" />
+            <enum name="rightbottom" value="8" />
+        </attr>
+
+        <attr name="lineDirection" format="integer">
+            <enum name="lefthorizontal" value="0" />
+            <enum name="horizontal" value="1" />
+            <enum name="righthorizontal" value="2" />
+            <enum name="topvertical" value="3" />
+            <enum name="vertical" value="4" />
+            <enum name="bottomvertical" value="5" />
+        </attr>
+
+
+    </declare-styleable>
+
+</resources>
